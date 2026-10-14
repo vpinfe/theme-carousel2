@@ -21,6 +21,8 @@ async function start() {
     if (action === "select") vpin.launchTable(vpin.getCurrentTableIndex());
   });
 
+  wheelsEl.setAttribute("aria-label", vpin.t("theme.tables_label", "Tables"));
+
   window.addEventListener("resize", () => draw());
   draw();
   document.body.dataset.ready = "true";
