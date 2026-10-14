@@ -1,0 +1,14 @@
+{
+  "title": "Carousel2 Options",
+  "description": "What the large image beside the cabinet shows.",
+  "options": [
+    {
+      "key": "maingfx",
+      "name": "Main Image",
+      "description": "The large image of the selected table. bg is the backglass, fss the full single screen, table the playfield, wheel the wheel, cab the cabinet and dmd the score view.",
+      "type": "select",
+      "default": "bg",
+      "options": ["bg", "fss", "table", "wheel", "cab", "dmd"]
+    }
+  ]
+}
