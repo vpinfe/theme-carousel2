@@ -3,8 +3,7 @@
   "version": "2.0.0",
   "author": "superhac",
   "description": "A single screen desktop wheel carousel: the cabinet and a large image of the selected table over a row of wheels.",
-  "preview_image": "preview.png",
-  "type": "desktop",
+  "layouts": {"desktop": "preview.png"},
   "change_log": "Rebuilt for VPinFE 3.0.\n\nCore now handles input, audio, preloading, layout, the loading indicator and attract mode.\n\nThe setting for the main image is listed with the theme in the Console, and a choice made in VPinFE 2.x carries over.\n\nThe collection picker is core's, and the collection a person starts on is Open On in VPinFE's settings.",
   "min_vpinfe": "3.0",
   "windows": ["playfield"]
